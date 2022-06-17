@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+main{
+    @media screen {
+        max-width: 1440px;
+        min-width: 375px;
+    }
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+@media screen and (max-width:375px) {
+    main{
+        flex-direction: column;
+    }
+}
+.sedans{
+    background-color:hsl(31, 77%, 52%);
+    padding: 2em;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.sedans button{
+    color:hsl(31, 77%, 52%);
+}
+
+.sedans button:hover{
+    background-color:hsl(31, 77%, 52%);
+    color:hsla(0, 0%, 100%, 0.75); 
+    border: 1.5px solid hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+.suvs{
+    background-color:hsl(184, 100%, 22%);
+    padding: 2em;
+}
+
+.suvs button{
+    color:hsl(184, 100%, 22%);
+}
+
+.suvs button:hover{
+    background-color:hsl(184, 100%, 22%);
+    color:hsla(0, 0%, 100%, 0.75); 
+    border: 1.5px solid hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+.luxury{
+    background-color:hsl(179, 100%, 13%);
+    padding: 2em;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.luxury button{
+    color:hsl(179, 100%, 13%);
+}
+.luxury button:hover{
+    background-color:hsl(179, 100%, 13%);
+    color:hsla(0, 0%, 100%, 0.75); 
+    border: 1.5px solid hsla(0, 0%, 100%, 0.75);
+    cursor: pointer;
+}
+
+h1{
+    color:hsl(0, 0%, 95%);
+    font-weight: 700;
+    font-family: Big Shoulders Display;
+    font-weight: 700;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p{
+   color: hsla(0, 0%, 100%, 0.75);
+   font-family: Lexend Deca; 
+   font-weight: 400;
+   padding-bottom: 60px;
+   line-height: 1.6;
+}
+
+button{
+    border-radius: 20px;
+    color: hsl(0, 0%, 95%);
+    padding: 12px;
+    width: 60%;
+    border: 0px;
+    margin-bottom: 20px;
+    font-family:Lexend Deca;
+    font-weight: 400;
+}
+
+
